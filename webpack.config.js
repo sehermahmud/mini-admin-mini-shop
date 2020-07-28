@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   mode: 'production',
   entry: {
-    shop: './src/optimized/shop.js'
+    shop: './src/non-optimized/shop.js'
   },
   output: {
     path: __dirname + '/dist/assets/scripts',
